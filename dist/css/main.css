@@ -46,4 +46,11 @@ body {
     .login button:hover {
       background: #248f8f; }
 
+.link {
+  color: #000;
+  text-decoration: none; }
+  .link:hover, .link:focus {
+    color: cornflowerblue;
+    text-decoration: underline; }
+
 /*# sourceMappingURL=main.css.map*/

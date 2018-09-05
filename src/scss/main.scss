@@ -59,3 +59,14 @@ body {
     }
   }
 }
+
+.link {
+  color: #000;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: cornflowerblue;
+    text-decoration: underline;
+  }
+}
