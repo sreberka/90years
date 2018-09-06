@@ -53,4 +53,48 @@ body {
     color: cornflowerblue;
     text-decoration: underline; }
 
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; }
+
+.week {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  margin: 2.3px; }
+  .week a {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  .week.wasted-week a {
+    cursor: not-allowed;
+    background: gray; }
+
+.container-week {
+  flex-wrap: nowrap;
+  justify-content: space-between; }
+
+.day {
+  width: 150px;
+  height: 100px;
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center; }
+  .day.today {
+    box-shadow: 0 0 5px #000; }
+
+.good {
+  background: #60ad5e; }
+
+.bad {
+  background: #c4001d; }
+
+#1537 {
+  background: #60ad5e; }
+
+#1538 {
+  background: #c4001d; }
+
 /*# sourceMappingURL=main.css.map*/

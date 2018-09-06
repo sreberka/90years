@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-class WeekPage extends React.Component {
+class DayPage extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -11,11 +11,10 @@ class WeekPage extends React.Component {
   render() {
     return (
       <div>
-        <h1>Week Page</h1>
         <Link to="/" className="link">Home</Link>
       </div>
     );
   }
 }
 
-export default WeekPage;
+export default DayPage;
